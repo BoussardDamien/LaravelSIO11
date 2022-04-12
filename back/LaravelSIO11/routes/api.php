@@ -21,3 +21,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::get('/', function(){
     return 'helo world';
 });
+
+Route::get('/Clients', [\App\Http\Controllers\ApiController::class, 'getAllClients']);

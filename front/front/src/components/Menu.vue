@@ -11,7 +11,10 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <router-link to="/" class="nav-link">Accueil</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/crm" class="nav-link">Crm</router-link>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -23,12 +26,6 @@
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
-          </li>
-          <li class="nav-item">
-            <router-link to="/" class="nav-link">Accueil</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link to="/crm" class="nav-link">Crm</router-link>
           </li>
         </ul>
       </div>

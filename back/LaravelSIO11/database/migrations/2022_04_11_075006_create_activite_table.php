@@ -19,6 +19,7 @@ class CreateActiviteTable extends Migration
             $table->date('date');
             $table->time('heure');
             $table->string('description');
+            $table->foreignId("client_id")->constrained();
             $table->timestamps();
         });
     }
